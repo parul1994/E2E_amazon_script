@@ -22,7 +22,7 @@ public class E2ETesting {
 		
 	//WebDriver driver=new ChromeDriver();
 	WebDriver driver=new EdgeDriver();
-	jbjdriver.manage().window().maximize(); 	
+	driver.manage().window().maximize(); 	
 	driver.manage().deleteAllCookies();
 	String baseurl=("https://www.amazon.in/");
 	driver.get(baseurl);
